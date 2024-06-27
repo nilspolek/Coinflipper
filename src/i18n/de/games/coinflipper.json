@@ -1,0 +1,20 @@
+{
+  "main_heading": "Münzwurf",
+  "main_text": "Willkommen bei Münzwurf – Ihre ultimative Anlaufstelle für schnelle und faire Entscheidungen! Ob Sie ein Unentschieden brechen, eine schwierige Wahl treffen oder einfach nur Spaß haben möchten, unser Münzwurf ist hier, um zu helfen. Mit einem einfachen Klick zeigt unsere virtuelle Münze zufällig entweder Kopf oder Zahl. Es ist schnell, einfach und perfekt für jede Situation, in der Sie ein faires und unvoreingenommenes Ergebnis benötigen. Probieren Sie es jetzt aus und lassen Sie das Schicksal entscheiden!",
+  "main_button": "Die Münze werfen",
+  "banner": "Herzlichen Glückwunsch! Sie haben <b x-text='result'></b> gewählt! 🎉 Ob Sie eine Entscheidung treffen oder einfach nur Ihr Glück testen möchten, unser Münzwurf bringt eine Prise Zufall in Ihren Tag. Genießen Sie den Nervenkitzel des Zufalls bei jedem Klick, während Sie die Münze durch die Luft tanzen sehen und auf Ihrer gewählten Seite landen. Lassen Sie die Spiele beginnen!",
+  "texts": [
+    {
+      "heading": "Sofortige Entscheidungsfindung",
+      "text": "Müssen Sie ein Unentschieden brechen oder schnell eine Wahl treffen? Werfen Sie eine virtuelle Münze und erhalten Sie sofort ein Ergebnis: Kopf oder Zahl! Perfekt, um Debatten zu lösen oder Ihrem Tag ein wenig Zufall zu verleihen."
+    },
+    {
+      "heading": "Spaß und Fairness",
+      "text": "Suchen Sie nach einer lustigen Möglichkeit, Entscheidungen zu treffen? Unser Münzwurf sorgt jedes Mal für ein faires und zufälliges Ergebnis. Ideal für Spiele, um Streitigkeiten zu klären oder einfach nur, um ein wenig Zufälligkeit zu genießen."
+    },
+    {
+      "heading": "Einfach und Schnell",
+      "text": "Keine Münze? Kein Problem! Mit nur einem Klick erhalten Sie eine klare Entscheidung in Sekundenschnelle mit unserem benutzerfreundlichen Münzwurf. Egal, ob Sie große oder kleine Entscheidungen treffen, lassen Sie uns für Sie die Münze werfen."
+    }
+  ]
+}

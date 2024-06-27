@@ -1,0 +1,20 @@
+{
+  "main_heading": "Ziehe dein Schicksal: Erhalte sofort zufällige Spielkarten!",
+  "main_text": "Entdecken Sie endlose Möglichkeiten mit unserem virtuellen Deck! Klicken Sie, um eine zufällige Karte zu ziehen und lassen Sie das Schicksal sich entfalten. Perfekt für Spiele, Entscheidungsfindung oder kreative Anregungen.\n\n",
+  "main_button": "Eine Karte ziehen",
+  "banner": "Herzlichen Glückwunsch! Sie haben eine Karte mit dem Wert <b x-text='card'></b> von Karo gezogen! 🃏 Ob Sie ein Kartenspiel spielen oder einfach nur für etwas Aufregung sorgen möchten, unser Kartenzieher bringt eine Prise Zufall in Ihren Tag. Spüren Sie die Spannung bei jedem Ziehen, während Sie die Karte aus dem Deck enthüllen und ihren Wert zeigen. Lassen Sie die Spiele beginnen!\n\n",
+  "texts": [
+    {
+      "heading": "Mischen und Überraschen: Ihr virtuelles Deck wartet!",
+      "text": "Erleben Sie den Nervenkitzel eines gemischten Decks jederzeit und überall. Unsere Website liefert mit einem Klick zufällige Karten, ideal für Spiele, Tarot-Enthusiasten oder spontanen Spaß!"
+    },
+    {
+      "heading": "Glück verteilen: Ziehen Sie sofort Spielkarten online!",
+      "text": "Brauchen Sie eine Karte? Wir haben, was Sie brauchen! Überspringen Sie das physische Deck und ziehen Sie aus unserem virtuellen Stapel. Egal ob Sie Poker spielen oder Einsicht suchen, unsere zufälligen Karten sind nur einen Klick entfernt."
+    },
+    {
+      "heading": "Das Ass im Ärmel: Zufällige Spielkarten auf Knopfdruck!",
+      "text": "Treffen Sie Entscheidungen mit Zufall! Unsere Website liefert schnell und zufällig virtuelle Karten. Perfekt für Spiele, Vorhersagen oder einfach, um dem Zufall zu begegnen."
+    }
+  ]
+}

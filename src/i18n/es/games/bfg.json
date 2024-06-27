@@ -1,0 +1,20 @@
+{
+  "main_heading": "Generador Aleatorio de Birdie Fund",
+  "main_text": "¿Estás listo para darle un giro divertido a tu próxima ronda de golf? El Generador Aleatorio de Birdie Fund está aquí para animar el juego y mantener a todos en vilo. Perfecto para partidos amistosos, torneos benéficos o simplemente un día relajado en el campo, nuestro generador añade un elemento de sorpresa y emoción a tus contribuciones al Birdie Fund.",
+  "main_button": "Obtener un número",
+  "banner": "¡Felicidades! Has obtenido un <b x-text='number'></b> 🦅 ¡Ya sea que estés jugando golf o simplemente buscando un poco de emoción, nuestro Generador Aleatorio de Birdie Fund añade un toque de azar a tu día. Siente la emoción en cada tirada mientras el fondo crece y revela tu contribución. ¡Que empiece el juego!",
+  "texts": [
+    {
+      "heading": "Descubre la Magia de Dar: Generador Aleatorio de Birdie Fund",
+      "text": "¡Descubre la alegría de la filantropía con nuestro Generador Aleatorio de Birdie Fund! Ya seas un donante experimentado o nuevo en el mundo de la caridad, nuestra plataforma innovadora hace que sea fácil y divertido apoyar causas benéficas. Simplemente gira la rueda y deja que el destino decida dónde va tu próxima donación. Cada contribución cuenta y ayuda a hacer del mundo un lugar mejor. ¡Únete a nosotros y difunde la amabilidad birdie a birdie!"
+    },
+    {
+      "heading": "Aumenta tu Impacto: Generador Aleatorio de Birdie Fund",
+      "text": "¿Listo para tener un impacto significativo con solo un clic? El Generador Aleatorio de Birdie Fund es tu puerta de entrada al apoyo sin esfuerzo de diversas causas. Fortalece comunidades, protege la naturaleza o apoya iniciativas educativas, todo a través de nuestra experiencia interactiva de donación. Con cada giro, contribuyes a cambios positivos en todo el mundo. Comienza tu viaje hoy mismo y descubre la diferencia que puedes hacer con cada gesto aleatorio de bondad."
+    },
+    {
+      "heading": "Reinventa el Dar: Generador Aleatorio de Birdie Fund",
+      "text": "Experimenta el futuro de la filantropía con el Generador Aleatorio de Birdie Fund. No se trata solo de donar, se trata de conectarte con una comunidad de donantes que comparten tu pasión por el cambio. Gira la rueda y observa cómo tus contribuciones tienen un impacto directo en organizaciones benéficas de todo el mundo. Cada giro ofrece la oportunidad de apoyar causas que te importan y descubrir nuevas que reflejen tus valores. Juntos, podemos amplificar nuestra generosidad colectiva y crear un futuro mejor para todos."
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "main_heading": "Tirada de Dados",
+  "main_text": "¡Bienvenido al Tirada de Dados, tu destino definitivo para decisiones rápidas y justas! Ya sea para romper un empate, tomar una decisión difícil o simplemente divertirse, nuestro tirada de dados está aquí para ayudar. Con un simple clic, nuestro dado virtual mostrará aleatoriamente un número. Es rápido, sencillo y perfecto para cualquier situación en la que necesite un resultado justo e imparcial. ¡Pruébelo ahora y deje que el destino decida!",
+  "main_button": "Tirar el dado",
+  "banner": "¡Felicidades! Has sacado un <b x-text='number'></b> 🎲 Ya sea que estés jugando un juego o simplemente buscando un poco de emoción, nuestro tirada de dados añade un toque de azar a tu día. Disfruta la emoción en cada tirada mientras ves el dado rodar sobre la mesa y revelar tu número. ¡Que comiencen los juegos!",
+  "texts": [
+    {
+      "heading": "Tirada de Dados: Emocionante Tirada de Dados en Línea",
+      "text": "Experimenta la emoción de tirar dados en línea con nuestro tirada de dados interactivo. Ya sea que estés jugando un juego o tomando decisiones, nuestros dados virtuales ofrecen una forma divertida y sencilla de simular la emoción de tirar dados reales. ¡Es rápido, conveniente y siempre a solo un clic de distancia!"
+    },
+    {
+      "heading": "Tirada de Dados Virtual: Divertida y Versátil",
+      "text": "Prueba nuestro tirada de dados virtual para todas tus necesidades de juego y decisiones. Desde juegos de mesa hasta decisiones al azar, nuestros dados digitales ofrecen una manera confiable y agradable de generar números aleatorios. Descubre diferentes tipos de dados y combinaciones de lanzamientos para mejorar tu experiencia de juego."
+    },
+    {
+      "heading": "Disfruta de la Tirada de Dados en Cualquier Momento y Lugar",
+      "text": "Tira dados fácilmente con nuestro tirada de dados en línea. Ya sea en casa o mientras viajas, nuestra plataforma proporciona una forma sencilla de lanzar dados virtuales para juegos, decisiones o simplemente por diversión. Con opciones personalizables y resultados instantáneos, nunca ha sido tan fácil disfrutar de la emoción de tirar dados en línea."
+    }
+  ]
+}

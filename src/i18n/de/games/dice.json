@@ -1,0 +1,20 @@
+{
+  "main_heading": "Würfelroller",
+  "main_text": "Willkommen beim Würfelroller – Ihre ultimative Anlaufstelle für schnelle und faire Entscheidungen! Ob Sie ein Unentschieden brechen, eine schwierige Wahl treffen oder einfach nur Spaß haben möchten, unser Würfelroller ist hier, um zu helfen. Mit einem einfachen Klick zeigt unser virtueller Würfel zufällig eine Zahl an. Es ist schnell, einfach und perfekt für jede Situation, in der Sie ein faires und unvoreingenommenes Ergebnis benötigen. Probieren Sie es jetzt aus und lassen Sie das Schicksal entscheiden!",
+  "main_button": "Den Würfel rollen",
+  "banner": "Herzlichen Glückwunsch! Sie haben eine <b x-text='number'></b> gewürfelt! 🎲 Ob Sie ein Spiel spielen oder einfach nur für etwas Aufregung sorgen möchten, unser Würfelroller bringt eine Prise Zufall in Ihren Tag. Spüren Sie die Spannung bei jedem Wurf, während Sie den Würfel über den Tisch rollen sehen und Ihre Zahl enthüllt wird. Lassen Sie die Spiele beginnen!",
+  "texts": [
+    {
+      "heading": "Würfeln Sie: Spannender Online-Würfelroller",
+      "text": "Erleben Sie den Nervenkitzel des Würfelns online mit unserem interaktiven Würfelroller. Ob Sie ein Spiel spielen oder Entscheidungen treffen, unsere virtuellen Würfel bieten eine unterhaltsame und einfache Möglichkeit, die Aufregung des echten Würfelns zu simulieren. Es ist schnell, bequem und immer nur einen Klick entfernt!"
+    },
+    {
+      "heading": "Virtueller Würfelroller: Spaßig und Vielseitig",
+      "text": "Probieren Sie unseren virtuellen Würfelroller für alle Ihre Spiel- und Entscheidungsbedürfnisse aus. Von Tischspielen bis hin zu zufälligen Entscheidungen bieten unsere digitalen Würfel eine zuverlässige und angenehme Möglichkeit, zufällige Zahlen zu erzeugen. Entdecken Sie verschiedene Würfeltypen und Wurfkombinationen, um Ihr Spielerlebnis zu verbessern."
+    },
+    {
+      "heading": "Genießen Sie das Würfeln jederzeit und überall",
+      "text": "Würfeln Sie mühelos mit unserem Online-Würfelroller. Egal, ob Sie zu Hause oder unterwegs sind, unsere Plattform bietet eine einfache Möglichkeit, virtuelle Würfel für Spiele, Entscheidungen oder einfach nur zum Spaß zu rollen. Mit anpassbaren Optionen und sofortigen Ergebnissen war es noch nie einfacher, die Aufregung des Würfelns online zu genießen."
+    }
+  ]
+}
