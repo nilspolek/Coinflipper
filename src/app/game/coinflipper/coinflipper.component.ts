@@ -34,14 +34,13 @@ export class CoinflipperComponent {
       coin.setAttribute("class", "");
       const random = await getRandom(1, 1, 2); // Wait for the random value
       const result = random == 1 ? "heads" : "tails";
-
       deferFn(function () {
         // @ts-ignore
         coin.setAttribute("class", "animate-" + result);
       }, 100);
       return result;
     }
-    return await flipCoin();
+    return this.data.result = await flipCoin();
   }
 
   data = {

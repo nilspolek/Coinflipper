@@ -6,6 +6,7 @@ import {NgbModal} from "@ng-bootstrap/ng-bootstrap";
 import {MainComponent} from "./main/main.component";
 import {CookieService} from "ngx-cookie-service";
 import {FooterComponent} from "./footer/footer.component";
+import {Title} from "@angular/platform-browser";
 
 @Component({
   selector: 'app-root',
@@ -18,8 +19,9 @@ import {FooterComponent} from "./footer/footer.component";
   `
 })
 export class AppComponent {
-  constructor(private modalService: NgbModal, private cookieService: CookieService) {}
+  constructor(private modalService: NgbModal, private cookieService: CookieService, private titleService: Title) {}
   ngOnInit() {
+    this.titleService.setTitle('Happy Moments Games');
     if(!this.cookieService.get('acceptedCookies')) {
       this.modalService.open(CookiesComponent, { centered : true });
     }
