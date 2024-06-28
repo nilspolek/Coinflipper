@@ -53,16 +53,15 @@ import {RouterLink} from "@angular/router";
             <li class="nav-item">
               <a
                 class="nav-link"
-                href="/text.html?data=impressum"
-                x-text="i18n.imp"
-              ></a>
+                routerLink="imprint"
+              >Imprint</a>
             </li>
             <li class="nav-item">
               <a
                 class="nav-link"
-                href="text.html?data=datenschutz"
-                x-text="i18n.data"
-              ></a>
+                routerLink="data"
+                href="data"
+              >data-protection</a>
             </li>
           </ul>
         </div>

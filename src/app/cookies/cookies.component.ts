@@ -12,7 +12,7 @@ import {CookieService} from "ngx-cookie-service";
     </div>
     <div class="modal-body">
       <div i18n>This website uses cookies to enhance your browsing experience and provide personalized content. By
-        clicking 'Accept,' you agree to the use of cookies as described in our <a href='text.html?data=cookie-policy'>Cookie
+        clicking 'Accept,' you agree to the use of cookies as described in our <a href='cookie-policy'>Cookie
           Policy</a>.
       </div>
     </div>

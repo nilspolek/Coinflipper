@@ -7,6 +7,8 @@ import {DiceComponent} from "./game/dice/dice.component";
 import {CardComponent} from "./game/card/card.component";
 import {BfgComponent} from "./game/bfg/bfg.component";
 import {ImprintComponent} from "./imprint/imprint.component";
+import {DataPritectionComponent} from "./data-pritection/data-pritection.component";
+import {CookiePolicyComponent} from "./cookie-policy/cookie-policy.component";
 
 export const routes: Routes = [
   {path: '', component: MainComponent},
@@ -16,5 +18,7 @@ export const routes: Routes = [
   {path: 'dice', component: DiceComponent},
   {path: 'card', component: CardComponent},
   {path: 'bfg', component: BfgComponent},
-  {path: 'imprint', component: ImprintComponent}
+  {path: 'imprint', component: ImprintComponent},
+  {path: 'data', component: DataPritectionComponent},
+  {path: 'cookie-policy', component: CookiePolicyComponent}
 ];
