@@ -1,52 +1,17 @@
 import { Component } from '@angular/core';
-import {TextComponent} from "../text/text.component";
+import { TextComponent } from '../text/text.component';
 
 @Component({
   selector: 'app-data-pritection',
   standalone: true,
-  imports: [
-    TextComponent
-  ],
+  imports: [TextComponent],
   template: `
     <app-text>
-      <h1 class="card-title text-center">Datenschutz</h1>
-      <p class="card-body">Zuletzt aktualisiert am:
-        16.06.2024<br/><br/>Scam.com legt großen Wert auf Ihren Datenschutz. Diese Datenschutzerklärung erläutert,
-        wie wir Ihre Informationen erfassen, verwenden, weitergeben und schützen, wenn Sie die Website Scam.com besuchen
-        oder nutzen.<br/><br/>Erfassung und Verwendung von Informationen<br/>a. Personenbezogene Daten: Wir
-        können personenbezogene Informationen wie Ihren Namen, Ihre E-Mail-Adresse, Telefonnummer und andere Details
-        erfassen, die Sie freiwillig auf der Website angeben (z.B. beim Ausfüllen von Kontaktformularen, Registrierung
-        oder Einkäufen).<br/>b. Nicht personenbezogene Daten: Wir erfassen automatisch bestimmte Informationen über
-        Ihre Nutzung der Website, wie z.B. IP-Adressen, Browsertyp, verwendete Geräte, besuchte Seiten und Dauer des
-        Besuchs. Diese Informationen sind anonymisiert und helfen uns, unsere Dienste zu verbessern.<br/><br/>
-        Verwendung der Informationen<br/> a. Wir verwenden Ihre personenbezogenen Daten, um die von Ihnen angeforderten
-        Dienste bereitzustellen, z.B. um Anfragen zu beantworten oder Bestellungen zu verarbeiten.<br/>b. Wir können
-        Ihre Informationen verwenden, um Ihnen Informationen über unsere Produkte oder Dienstleistungen zuzusenden, wenn
-        Sie derartige Mitteilungen zugestimmt haben.<br/>c. Nicht personenbezogene Daten werden zur Analyse des
-        Nutzerverhaltens, zur Verbesserung unserer Website und für statistische Zwecke verwendet.<br/><br/>
-        Weitergabe von Informationen<br/>a. Wir geben Ihre personenbezogenen Daten nicht an Dritte weiter, es sei
-        denn, dies ist zur Erfüllung unserer vertraglichen oder gesetzlichen Verpflichtungen erforderlich.<br/>b. Wir
-        können Informationen mit Dritten teilen, die uns bei der Erbringung unserer Dienstleistungen unterstützen, wie
-        z.B. technische Dienstleister oder Zahlungsabwickler, jedoch nur in dem für diese Dienstleistungen
-        erforderlichen
-        Umfang.<br/><br/>Cookies und Tracking-Technologien<br/>a. Wir verwenden Cookies und ähnliche
-        Tracking-Technologien, um die Nutzung der Website zu analysieren und die Benutzererfahrung zu verbessern.<br/>
-        b. Sie können die Verwendung von Cookies über Ihre Browsereinstellungen kontrollieren oder ablehnen. Bitte
-        beachten Sie jedoch, dass einige Funktionen der Website möglicherweise nicht richtig funktionieren, wenn Sie
-        Cookies deaktivieren.<br/><br/>Datensicherheit<br/>a. Wir setzen angemessene Sicherheitsmaßnahmen ein,
-        um Ihre Informationen vor Verlust, Missbrauch und unbefugtem Zugriff zu schützen.<br/>b. Trotz unserer
-        Bemühungen können wir keine absolute Sicherheit garantieren. Sie tragen das Risiko der Offenlegung Ihrer
-        Informationen, wenn Sie sie über das Internet übermitteln.<br/>Änderungen dieser
-        Datenschutzerklärung<br/> a. Wir behalten uns das Recht vor, diese Datenschutzerklärung jederzeit zu ändern.
-        Die aktualisierte Datenschutzerklärung wird auf der Website mit einem überarbeiteten "Zuletzt
-        aktualisiert"-Datum veröffentlicht.<br/> b. Über wesentliche Änderungen werden wir Sie per E-Mail oder auf
-        andere geeignete Weise informieren.<br/><br/>Kontakt<br/>Wenn Sie Fragen zu dieser Datenschutzerklärung
-        haben, kontaktieren Sie uns bitte unter max&#64;musterman.com.<br/>Durch die Nutzung unserer Website erklären
-        Sie sich mit der Erfassung, Nutzung und Offenlegung Ihrer Informationen gemäß dieser Datenschutzerklärung
-        einverstanden.<br/>Ende der Datenschutzerklärung<br/></p>
+      <h1 class="card-title text-center">Privacy Policy</h1>
+      <p class="card-body">
+        Last Updated: June 16, 2024<br /><br />Scam.com values your privacy. This privacy policy explains how we collect, use, disclose, and protect your information when you visit or use the Scam.com website.<br /><br />Collection and Use of Information<br />a. Personal Data: We may collect personal information such as your name, email address, phone number, and other details you voluntarily provide on the website (e.g., through contact forms, registration, or purchases).<br />b. Non-Personal Data: We automatically collect certain information about your use of the website, such as IP addresses, browser type, devices used, pages visited, and duration of visit. This information is anonymized and helps us improve our services.<br /><br />Use of Information<br />a. We use your personal data to provide the services you request, such as responding to inquiries or processing orders.<br />b. We may use your information to send you information about our products or services if you have agreed to receive such communications.<br />c. Non-personal data is used for analyzing user behavior, improving our website, and for statistical purposes.<br /><br />Disclosure of Information<br />a. We do not disclose your personal data to third parties unless necessary to fulfill our contractual or legal obligations.<br />b. We may share information with third parties who assist us in providing our services, such as technical service providers or payment processors, but only to the extent necessary for those services.<br /><br />Cookies and Tracking Technologies<br />a. We use cookies and similar tracking technologies to analyze website usage and enhance user experience.<br />b. You can control or reject the use of cookies through your browser settings. However, please note that some features of the website may not function properly if you disable cookies.<br /><br />Data Security<br />a. We implement appropriate security measures to protect your information from loss, misuse, and unauthorized access.<br />b. Despite our efforts, we cannot guarantee absolute security. You assume the risk of disclosing your information when transmitting it over the Internet.<br /><br />Changes to This Privacy Policy<br />a. We reserve the right to change this privacy policy at any time. The updated privacy policy will be posted on the website with a revised "Last Updated" date.<br />b. We will notify you of any material changes via email or other appropriate means.<br /><br />Contact<br />If you have any questions about this privacy policy, please contact us at max&#64;example.com.<br />By using our website, you consent to the collection, use, and disclosure of your information as described in this privacy policy.<br />End of Privacy Policy<br />
+      </p>
     </app-text>
-  `
+  `,
 })
-export class DataPritectionComponent {
-
-}
+export class DataPritectionComponent {}

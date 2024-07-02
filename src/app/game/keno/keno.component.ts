@@ -10,17 +10,18 @@ import {getRandom} from "../../api/api";
   ],
   template: `
     <app-game [data]="data" [buttonAction]="getKeno">
-      <h1 class="card-title p-5 pb-3 text-center" i18n>{{ data.mainHeading }}</h1>
-      <div class="card m-5">
-        <div class="row justify-content-center m-5">
-          @for (num of data.result; track num) {
-            <div class="card col-md-1 col-6 m-2 text-bg-primary">
-              <p class="card-body text-center">{{ num }}</p>
-            </div>
-          }
+      <div class="align-items-center">
+        <h1 class="p-5 pb-3 text-center" i18n>{{ data.mainHeading }}</h1>
+        <div class="card m-5 shadow">
+          <div class="row justify-content-center m-md-3 m-lg-5 m-1">
+            @for (num of data.result; track num) {
+              <div class="card col-md-1 col-3 m-2 text-bg-primary w-auto">
+                <p class="card-body text-center">{{ num }}</p>
+              </div>
+            }
+          </div>
         </div>
       </div>
-
     </app-game>
   `
 })

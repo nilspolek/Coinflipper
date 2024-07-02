@@ -5,13 +5,9 @@ import { Component } from '@angular/core';
   standalone: true,
   imports: [],
   template: `
-    <div
-      class="container px-4 px-lg-5"
-    >
-      <div class="card col-9 m-5 p-3"><ng-content /></div>
+    <div class="container">
+      <div class="card col-9 m-5 mx-0 mx-lg-5 mx-md-3 p-3 col-12"><ng-content /></div>
     </div>
-  `
+  `,
 })
-export class TextComponent {
-
-}
+export class TextComponent {}
