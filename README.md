@@ -1,4 +1,4 @@
-wbs.webnils.de
+https://wbs.webnils.de
 Username: WBS
 Password: WBS-2024
 
