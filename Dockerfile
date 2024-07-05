@@ -17,13 +17,8 @@ COPY . .
 
 RUN ng build
 
-# Use the official Python image from Docker Hub
-FROM python:3.9-slim
+FROM nginx:latest
+COPY ./nginx/* /etc/nginx/
+COPY --from=build /app/dist/untitled/browser /usr/share/nginx/html
+EXPOSE 80
 
-# Set the working directory inside the container
-WORKDIR /app
-
-COPY --from=build /app/dist/untitled/browser /app
-
-# Run a simple HTTP server on port 8000
-CMD ["python", "-m", "http.server", "8000"]
