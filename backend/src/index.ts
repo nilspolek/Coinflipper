@@ -3,6 +3,8 @@ import express, { Express, Request, Response } from "express";
 import dotenv from "dotenv";
 //eslint-disable-next-line
 import pino from 'pino';
+import cors from 'cors'
+
 
 const logger = pino({
     transport : {
@@ -13,8 +15,6 @@ const logger = pino({
 
 // @ts-expect-error pocketbase
 import PocketBase from 'pocketbase/cjs';
-import {filter} from "rxjs";
-import {stringify} from "node:querystring";
 const pb = new PocketBase('http://127.0.0.1:8090');
 
 dotenv.config();
@@ -31,27 +31,71 @@ app.get("/api", (req: Request, res: Response) => {
 });
 
 
-app.get("/api/Lottery", async (req: Request, res: Response) => {
-  const data = {
-    "name": "[1, 2, 34, 5]"
-  }
-  await pb.collection('Lottery').create(data)
+app.get("/api/Lottery", (req: Request, res: Response) => {
   res.header("Access-Control-Allow-Origin", "*");
-  logger.info("[server]: Backend | Lottery | requested ");
+  logger.info("[nginx]: Backend | Lottery | requested ");
   // eslint-disable-next-line
   pb.collection('Lottery').getFirstListItem('')
     // eslint-disable-next-line
     .then((record: any) => {
-      console.log(record.created)
-      if (!isDateStringOlderThanSevenDays(record.created)) {
-        getRandom(7, 0, 49).then((data: any) => {
-          pb.collection('Lottery').create(data).then(res.send(data))
+      if (isDateStringOlderThanSevenDays(record.created)) {
+        logger.info("[nginx]: Backend | Lottery | expired ");
+        getRandom(7, 0, 49).then(async (data: any) => {
+          const send = {
+            "numbers": data
+          };
+          pb.collection('Lottery').create(send)
+          res.send(send)
         })
         console.log(`${record.cDate} is older than 7 days ago.`);
       } else {
-        res.send(record.numbers);
+        logger.info("[nginx]: Backend | Lottery | from cache ");
+        res.send({"numbers": record.numbers});
       }
+    }).catch((error: any) => {
+    logger.error(error);
+    logger.info("[nginx]: Backend | Lottery | first time ");
+    getRandom(7, 0, 49).then(async (data: any) => {
+      const send = {
+        "numbers": data
+      };
+      pb.collection('Lottery').create(send)
+      res.send(send);
+    })
     });
+});
+
+app.get("/api/Keno", (req: Request, res: Response) => {
+  res.header("Access-Control-Allow-Origin", "*");
+  logger.info("[nginx]: Backend | Keno | requested ");
+  // eslint-disable-next-line
+  pb.collection('Keno').getFirstListItem('')
+    // eslint-disable-next-line
+    .then((record: any) => {
+      if (isDateStringOlderThanSevenDays(record.created)) {
+        logger.info("[nginx]: Backend | Keno | expired ");
+        getRandom(4, 1, 80).then(async (data: any) => {
+          const send = {
+            "numbers": data
+          };
+          pb.collection('Keno').create(send)
+          res.send(send)
+        })
+        console.log(`${record.cDate} is older than 7 days ago.`);
+      } else {
+        logger.info("[nginx]: Backend | Keno | from cache ");
+        res.send({"numbers": record.numbers});
+      }
+    }).catch((error: any) => {
+    logger.info("[nginx]: Backend | Keno | first time ");
+    getRandom(4, 1, 80).then(async (data: any) => {
+      const send = {
+        "numbers": data
+      };
+      pb.collection('Keno').create(send)
+      res.send(send);
+    })
+  });
 });
 
 function isDateStringOlderThanSevenDays(date: any) {
@@ -96,6 +140,13 @@ export async function getRandom(n: number, min: number, max: number) {
     return 3;
   }
 }
+
+const corsOptions = {
+  origin: '*',
+  optionsSuccessStatus: 200
+};
+
+app.use(cors(corsOptions));
 
 app.listen(port, () => {
   logger.info(`[server]: Server is running at http://localhost:${port}`);

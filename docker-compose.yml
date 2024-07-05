@@ -6,7 +6,7 @@ services:
       context: .
       dockerfile: Dockerfile
     ports:
-      - "8080:8000"
+      - "8080:80"
   pocketbase:
     image: elestio/pocketbase:latest
     restart: always
@@ -15,3 +15,10 @@ services:
       - "8090:8090"
     volumes:
       - ./data:/pb_data
+  backend:
+    build:
+      context: ./backend/
+      dockerfile: Dockerfile
+    restart: always
+    ports:
+      - "3000:3000"
