@@ -7,3 +7,11 @@ services:
       dockerfile: Dockerfile
     ports:
       - "8080:8000"
+  pocketbase:
+    image: elestio/pocketbase:latest
+    restart: always
+    user: 0:0
+    ports:
+      - "8090:8090"
+    volumes:
+      - ./data:/pb_data
