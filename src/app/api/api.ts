@@ -1,3 +1,5 @@
+const backend = 'http://localhost:3000/';
+
 export async function getRandom(n: number, min: number, max: number) {
   const data = {
     jsonrpc: '2.0',
@@ -92,3 +94,17 @@ async function getCard() {
     return 3;
   }
 }
+export async function getNumbersFromAPI(apiEndpoint : string) {
+  try {
+    const response = await fetch(backend+apiEndpoint);
+    if (!response.ok) {
+      throw new Error(`HTTP error! status: ${response.status}`);
+    }
+    const data = await response.json();
+    return data.numbers;
+  } catch (error) {
+    console.error('Error fetching data:', error);
+    return null;  // Return null or handle error appropriately
+  }
+}
+
