@@ -21,3 +21,4 @@ FROM nginx:latest
 COPY ./nginx/* /etc/nginx/
 COPY --from=build /app/dist/untitled/browser /usr/share/nginx/html
 EXPOSE 80
+
