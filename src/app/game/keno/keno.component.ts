@@ -1,6 +1,6 @@
  import {Component} from '@angular/core';
 import {GameComponent} from "../game.component";
-import { getNumbersFromAPI, getRandom } from '../../api/api'
+import { getRandom } from '../../api/api'
 
 @Component({
   selector: 'app-keno',
