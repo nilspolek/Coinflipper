@@ -25,8 +25,8 @@ import { getNumbersFromAPI } from '../../api/api'
 })
 export class LotteryComponent {
   getLottery = (): void => {
-    getNumbersFromAPI("api/Lottery").then((data) => {
-      this.data.result = data;
+    getRandom(7, 0, 49).then((data) => {
+      this.data.result = data
     });
   };
   data = {

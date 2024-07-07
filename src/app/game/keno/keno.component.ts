@@ -1,4 +1,4 @@
-import {Component} from '@angular/core';
+ import {Component} from '@angular/core';
 import {GameComponent} from "../game.component";
 import { getNumbersFromAPI, getRandom } from '../../api/api'
 
@@ -27,8 +27,8 @@ import { getNumbersFromAPI, getRandom } from '../../api/api'
 })
 export class KenoComponent {
   getKeno = (): void => {
-    getNumbersFromAPI("api/Keno").then((data) => {
-      this.data.result = data;
+    getRandom(4, 1, 80).then((data) => {
+      this.data.result = data
     });
   }
 
