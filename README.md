@@ -17,6 +17,10 @@ npm install
 ng serve
 ```
 
+## Install in Browser
+![Install Btn](./screenshots/Screenshot 2024-07-09 231735.png)
+![Install Btn 2](./screenshots/Screenshot 2024-07-09 232031.png)
+
 ## Screenshots
 
 ### Landing Page
