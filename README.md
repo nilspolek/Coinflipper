@@ -17,6 +17,14 @@ npm install
 ng serve
 ```
 
+## LightHouse
+![LightHouse](./screenshots/Screenshot 2024-07-12 122017.png)
+
+## Install in Browser
+![Inst1](./screenshots/Screenshot 2024-07-09 231735.png)
+![Inst2](./screenshots/Screenshot 2024-07-09 232031.png)
+
+
 ## Screenshots
 
 ### Landing Page
