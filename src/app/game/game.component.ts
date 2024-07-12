@@ -1,9 +1,14 @@
 import { Component, Input } from '@angular/core';
+import {MatAnchor} from "@angular/material/button";
+import {MatCard} from "@angular/material/card";
 
 @Component({
   selector: 'app-game',
   standalone: true,
-  imports: [],
+  imports: [
+    MatAnchor,
+    MatCard
+  ],
   template: `
     <!-- Page Content-->
     <div class="container px-4 px-lg-5">
@@ -13,9 +18,9 @@ import { Component, Input } from '@angular/core';
         <div class="col-lg">
           @if (data.mainText || data.mainButton) {
             <article>
-              <h1 class="font-weight-light" i18n>{{ data.mainHeading }}</h1>
+              <h1 class="font-weight-light" style="color: #001b3f;">{{ data.mainHeading }}</h1>
               <p i18n>{{ data.mainText }}</p>
-              <a class="btn btn-primary" (click)="buttonActionWrapper()" i18n>{{
+              <a (click)="buttonActionWrapper()" mat-flat-button>{{
                 data.mainButton
               }}</a>
             </article>
@@ -24,27 +29,28 @@ import { Component, Input } from '@angular/core';
       </div>
       <!-- Call to Action-->
       @if (data.resultBannerFirst || data.resultBannerLast) {
-        <div
-          class="card text-white bg-secondary my-5 py-4 text-center shadow-lg"
+        <mat-card
+          class="my-5 py-4 text-center shadow-lg"
+          style="background-color: #d7e3ff; border-style: none;"
         >
-          <h2 class="card-title" i18n>{{ data.result }}</h2>
+          <h2 class="card-title" style="color: #001b3f;">{{ data.result }}</h2>
           <div class="card-body">
-            <p class="text-white m-0" i18n>
+            <p class="m-0" style="color: #005cbb;">
               {{ data.resultBannerFirst + data.result + data.resultBannerLast }}
             </p>
           </div>
-        </div>
+        </mat-card>
       }
       <!-- Content Row-->
       <div class="row gx-4 gx-lg-5">
         @for (card of data.cards; track card.heading) {
           <div class="col-md-4 mb-5">
-            <div class="card h-100 shadow">
+            <mat-card class="p-3" style="background-color: #d7e3ff; border-style: none;">
               <div class="card-body">
-                <h2 class="card-title" i18n>{{ card.heading }}</h2>
-                <p class="card-text" i18n>{{ card.text }}</p>
+                <h2 class="card-title" style="color: #001b3f;">{{ card.heading }}</h2>
+                <p class="card-text" style="color: #005cbb;">{{ card.text }}</p>
               </div>
-            </div>
+            </mat-card>
           </div>
         }
       </div>

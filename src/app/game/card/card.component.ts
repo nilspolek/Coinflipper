@@ -9,8 +9,8 @@ import { getRandom } from '../../api/api';
   template: `
     <app-game [data]="data" [buttonAction]="getACard">
       <div class="col-lg-7">
-        <div class="container">
-          <p style="font-size: xxx-large">{{ data.result }}</p>
+        <div class="container" style="color: #001b3f;">
+          <p style="font-size: large">{{ data.result }}</p>
         </div>
       </div>
     </app-game>

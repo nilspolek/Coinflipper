@@ -10,9 +10,9 @@ import {MatTabNav} from "@angular/material/tabs";
   standalone: true,
   imports: [NgbNavLinkBase, RouterLink, MatFabAnchor, MatAnchor, MatNavList, MatTabNav],
   template: `
-    <mat-nav-list class="navbar navbar-expand-lg navbar-dark shadow">
+    <mat-nav-list class="navbar navbar-expand-lg navbar-dark shadow" style="background-color: #d7e3ff">
       <div class="container px-5">
-        <a class="navbar-brand" routerLink="/" mat-flat-button>Happy Moments Games</a>
+        <a class="navbar-brand my-2" routerLink="/" mat-flat-button>Happy Moments Games</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -26,29 +26,29 @@ import {MatTabNav} from "@angular/material/tabs";
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-            <li class="nav-item">
+            <li class="nav-item mx-1">
               <a class="nav-link" routerLink="/coinflipper" i18n mat-button>Coinflipper</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item mx-1">
               <a class="nav-link" routerLink="/lottery" i18n mat-button>Lottery</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item mx-1">
               <a class="nav-link" routerLink="/keno" i18n mat-button>Keno</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item mx-1">
               <a class="nav-link" routerLink="/dice" i18n mat-button>Dice</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item mx-1">
               <a class="nav-link" routerLink="/card" i18n mat-button>CardShuffeler</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item mx-1">
               <a class="nav-link" routerLink="/bfg" i18n mat-button
                 >Birdie Fund Random Generator</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item mx-1">
               <a class="nav-link" routerLink="imprint" mat-button>Imprint</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item mx-1">
               <a class="nav-link" routerLink="data" href="data" mat-button
                 >data-protection</a
               >
