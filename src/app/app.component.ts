@@ -14,6 +14,7 @@ import { Title } from '@angular/platform-browser';
   imports: [RouterOutlet, NavbarComponent, MainComponent, FooterComponent],
   template: `
     <app-navbar />
+
     <router-outlet></router-outlet>
     <app-footer />
   `,
