@@ -1,24 +1,25 @@
 import { Component } from '@angular/core'
 import { GameComponent } from '../game.component'
 import { getRandom} from '../../api/api'
+import {MatCard} from "@angular/material/card";
 
 @Component({
   selector: 'app-lottery',
   standalone: true,
-  imports: [GameComponent],
+  imports: [GameComponent, MatCard],
   template: `
     <app-game [data]="data" [buttonAction]="getLottery">
-      <div class="align-items-center">
-        <h1 class="p-5 pb-3 text-center" i18n>{{ data.mainHeading }}</h1>
-        <div class="card m-5 shadow">
-          <div class="row justify-content-center m-md-3 m-lg-5 m-1">
+      <div class="align-items-center w-100">
+        <h1 class="p-5 pb-3 text-center" style="color: #001b3f;">{{ data.mainHeading }}</h1>
+        <mat-card class="w-auto shadow" style="background-color: #001b3f; border-style: none;">
+          <div class="row justify-content-center m-md-3 m-lg-5 m-1 w-auto">
             @for (num of data.result; track num) {
-              <div class="card col-md-1 col-3 m-2 text-bg-primary w-auto">
+              <mat-card class="p-4 col-md-1 col-3 m-2 w-auto" style="background-color: #d7e3ff; border-style: none;">
                 <p class="card-body text-center">{{ num }}</p>
-              </div>
+              </mat-card>
             }
           </div>
-        </div>
+        </mat-card>
       </div>
     </app-game>
   `,
