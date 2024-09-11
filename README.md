@@ -28,7 +28,7 @@ ng serve
 ## Screenshots
 
 ### Landing Page
-<img src="https://github.com/nilspolek/Coinflipper/screenshots/Screenshot 2024-07-12 120230.png?raw=true"></img>
+![https://github.com/nilspolek/Coinflipper/screenshots/Screenshot 2024-07-12 120230.png?raw=true](https://github.com/nilspolek/Coinflipper/blob/master/screenshots/Screenshot%202024-07-09%20231735.png?raw=true)
 ### Coinflipper
 ![Landing Page](./screenshots/Screenshot 2024-07-12 120236.png)
 ### Lottery
