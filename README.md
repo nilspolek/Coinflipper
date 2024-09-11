@@ -30,22 +30,22 @@ ng serve
 ### Landing Page
 ![https://github.com/nilspolek/Coinflipper/screenshots/Screenshot 2024-07-12 120230.png?raw=true](https://github.com/nilspolek/Coinflipper/blob/master/screenshots/Screenshot%202024-07-09%20231735.png?raw=true)
 ### Coinflipper
-![Landing Page](./screenshots/Screenshot 2024-07-12 120236.png)
+![Landing Page](https://github.com/nilspolek/Coinflipper/blob/master//screenshots/Screenshot 2024-07-12 120236.png)
 ### Lottery
-![Landing Page](./screenshots/Screenshot 2024-07-12 120246.png)
+![Landing Page](https://github.com/nilspolek/Coinflipper/blob/master//screenshots/Screenshot 2024-07-12 120246.png)
 ### Keno
-![Landing Page](./screenshots/Screenshot 2024-07-12 120253.png)
+![Landing Page](https://github.com/nilspolek/Coinflipper/blob/master//screenshots/Screenshot 2024-07-12 120253.png)
 ### Dice Roller
-![Landing Page](./screenshots/Screenshot 2024-07-12 120301.png)
+![Landing Page](https://github.com/nilspolek/Coinflipper/blob/master//screenshots/Screenshot 2024-07-12 120301.png)
 ### Card Shuffler
-![Landing Page](./screenshots/Screenshot 2024-07-12 120412.png)
+![Landing Page](https://github.com/nilspolek/Coinflipper/blob/master//screenshots/Screenshot 2024-07-12 120412.png)
 ### Birdie Fund Randomizer
-![Landing Page](./screenshots/Screenshot 2024-07-12 120422.png)
+![Landing Page](https://github.com/nilspolek/Coinflipper/blob/master//screenshots/Screenshot 2024-07-12 120422.png)
 ### Data Protection
-![Landing Page](./screenshots/Screenshot 2024-07-12 120438.png)
+![Landing Page](https://github.com/nilspolek/Coinflipper/blob/master//screenshots/Screenshot 2024-07-12 120438.png)
 ### Imprint
-![Landing Page](./screenshots/Screenshot 2024-07-12 120429.png)
+![Landing Page](https://github.com/nilspolek/Coinflipper/blob/master//screenshots/Screenshot 2024-07-12 120429.png)
 ### Cookies
-![Landing Page](./screenshots/Screenshot 2024-07-12 121002.png)
+![Landing Page](https://github.com/nilspolek/Coinflipper/blob/master//screenshots/Screenshot 2024-07-12 121002.png)
 ### Cookies consent
-![Landing Page](./screenshots/Screenshot 2024-07-12 121133.png)
+![Landing Page](https://github.com/nilspolek/Coinflipper/blob/master//screenshots/Screenshot 2024-07-12 121133.png)
