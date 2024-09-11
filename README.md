@@ -1,7 +1,3 @@
-https://wbs.webnils.de
-Username: WBS
-Password: WBS-2024
-
 # Docu
 
 ## Installation
